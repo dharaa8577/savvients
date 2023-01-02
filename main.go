@@ -1,0 +1,25 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	Fibonacci(11)
+
+}
+
+func Fibonacci(n int) {
+
+	a, b, c := 0, 1, 0
+
+	for i := 2; i <= n; i++ {
+
+		c = a + b
+
+		a = b
+
+		b = c
+		fmt.Println(b)
+
+	}
+}
