@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var number, NUM int
-	var reverse int = 0
+	reverse  := 0
 
 	fmt.Print("Enter any integer : ")
 	fmt.Scan(&number)
@@ -17,7 +17,7 @@ func main() {
 
 		if number == 0 {
 			break
-			// Break Statement it comes out of the loop
+			
 		}
 	}
 
