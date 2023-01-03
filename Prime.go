@@ -3,6 +3,12 @@ package main
 import (
 	"fmt"
 )
+func main() {
+	var number int
+	fmt.Print("Enter Number To check Prime or not:")
+	fmt.Scanln(&number)
+	Prime(number)
+}
 
 func Prime(number int) {
 	isPrime := true
@@ -20,10 +26,4 @@ func Prime(number int) {
 			fmt.Printf(" %d is a prime number\n", number)
 		}
 	}
-}
-func main() {
-	var number int
-	fmt.Print("Enter Number To check Prime or not:")
-	fmt.Scanln(&number)
-	Prime(number)
 }
